@@ -6,7 +6,7 @@
     "repository": "Blackline-Development-DevOps/onestep-money",
     "owner": "Blackline-Development-DevOps",
     "ownerType": "user",
-    "number": 4,
+    "number": 5,
     "centralPortfolio": {
       "owner": "Blackline-Development-DevOps",
       "ownerType": "user",
@@ -62,7 +62,11 @@
     "UI/UX / Packaging / Branding",
     "UI/UX / Theme"
   ],
-  "platforms": ["windows", "electron", "github-pages"],
+  "platforms": [
+    "windows",
+    "electron",
+    "github-pages"
+  ],
   "commands": {
     "test": "npm test",
     "validate": "npm run check",
@@ -72,7 +76,11 @@
     "pagesBuild": "npm run build:pages",
     "pagesSmoke": "npm run smoke:pages"
   },
-  "policyReferences": ["README.md", "CONTRIBUTING.md", "SECURITY.md"],
+  "policyReferences": [
+    "README.md",
+    "CONTRIBUTING.md",
+    "SECURITY.md"
+  ],
   "security": {
     "threatExtensions": [
       "local financial state and encrypted document vault",
@@ -84,7 +92,10 @@
     ]
   },
   "inheritance": {
-    "preserve": [".github/PULL_REQUEST_TEMPLATE.md", "SECURITY.md"]
+    "preserve": [
+      ".github/PULL_REQUEST_TEMPLATE.md",
+      "SECURITY.md"
+    ]
   },
   "overrides": {
     "branchMigration": {
